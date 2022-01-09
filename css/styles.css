@@ -5,6 +5,28 @@
     url("../fonts/Roboto-Black.ttf") format(".ttf"); 
 }
 
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.text-white {
+    color: #fff;
+}
+
+.far {
+    font-weight: 400;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +36,6 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    /* background:#fff; */
 }
 
 button, img {
@@ -26,7 +47,7 @@ a {
 }
 
 .container {
-    padding: 0 390px 0 390px;
+    padding: 0 390px;
 }
 /* ---header--- */
 .container-header-bg {
@@ -38,6 +59,76 @@ a {
     background-position: center;
 }
 
+.header-contacts-and-menu a {
+    padding:  0 20px;
+    color: #bde7f4;
+    text-decoration: none;
+
+}
+
+.header-logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .img-logo {
     margin-top: 35px;
+}
+
+.line {
+    width: 705px;
+    margin-top: 25px;
+    border-bottom: 1px solid #80d2e9; 
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav {
+    margin-top: 10px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav li a {
+    padding:  0 20px;
+    color: #bde7f4;
+}
+
+.main-nav a:hover {
+    color: #fcfefe;
+    font-weight: bold;
+}  
+
+.header-contacts-register-login {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-contacts-register-login a:hover {
+    color: #fcfefe;
+    font-weight: bold;
+}
+
+.email-phone {
+    align-items: flex-start;
+}
+
+.search-register-login {
+    align-items: flex-end;
 }
