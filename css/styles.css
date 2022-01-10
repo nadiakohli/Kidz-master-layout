@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "Roboto"; 
-    src: url("../fonts/Roboto-Regular.ttf") format(".ttf")
-    url("../fonts/Roboto-Medium.ttf") format(".ttf")
-    url("../fonts/Roboto-Black.ttf") format(".ttf"); 
+    font-family: 'Roboto'; 
+    src: url('../fonts/Roboto-Regular.ttf') format('.ttf')
+    url('../fonts/Roboto-Medium.ttf') format('.ttf')
+    url('../fonts/Roboto-Black.ttf') format('.ttf'); 
 }
 
 .fa, .fab, .fal, .far, .fas {
@@ -16,7 +16,7 @@
 }
 
 .fa, .far, .fas {
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Font Awesome 5 Free';
 }
 
 .text-white {
@@ -116,7 +116,7 @@ a {
 .header-contacts-register-login {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
