@@ -102,7 +102,7 @@ a {
 }
 
 .main-nav li a {
-    padding:  0 20px;
+    padding: 0 20px;
     color: #bde7f4;
 }
 
@@ -123,10 +123,10 @@ a {
     font-weight: bold;
 }
 
-.email-phone {
+.header-email-phone {
     align-items: flex-start;
 }
 
-.search-register-login {
+.header-search-register-login {
     align-items: flex-end;
 }
