@@ -54,10 +54,9 @@ a {
 }
 
 /* ---header--- */
-
 .container-header-bg {
     height: 1070px;
-    width: 1140;
+    width: 1140px;
     background-image: url('../images/backgroundBlueWhite.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -142,12 +141,8 @@ a {
 }
 
 /* ---main-page--- */
-
 .main-page-slider-and-text {
     margin-top: 200px;
-}
-
-.main-page-slider-and-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
