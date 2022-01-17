@@ -10,6 +10,11 @@
     url('../fonts/Roboto-Medium.ttf') format('.ttf');
 }
 
+@font-face {
+    font-family: 'RobotoSlab'; 
+    src: url('../fonts/RobotoSlab-Regular.ttf') format('.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +50,10 @@ a {
     font-weight: 400;
 }
 
+.color-for-folder-icons {
+    color: #3f3f3f;
+}
+
 /* ---page-about--- */
 
 .container-courses {
@@ -58,8 +67,15 @@ a {
     justify-content: space-between;
 }
 
+.courses-text-color {
+    font-family: Raleway-SemiBold, sans-serif;
+    font-size: 15px;
+    color: #3f3f3f;
+    font-weight: 700;
+}
+
 .courses-math-technology-classes {
-    /* width: 1135px; */
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -99,24 +115,48 @@ a {
 }
 
 .courses-width {
-    width: 300px;
+    width: 190px;
+    margin: 0 40px;
 }
 
 .courses-nav {
-    font-family: Raleway-SemiBold, sans-serif;
-    font-size: 15px;
+    margin-top: 15px;
+    font-family: Raleway-Medium, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .courses-nav ul {
-    display: flex;
     list-style: none;
     text-decoration: none;
 }
 
 .courses-nav li a {
-    padding:  0 25px;
-    color: 3f3f3f;
+    color: #00a4d3;
+    font-weight: 600;
 }
+
+.courses-style-header {
+    margin: 25px 0;
+    font-family: RobotoSlab-Regular, serif;
+    font-size: 24px;
+    color: #000;
+}
+
+.courses-style-paragraph {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    color: #898989;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
 
 
 
