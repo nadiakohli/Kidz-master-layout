@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Dosis'; 
+    src: url('../fonts/Dosis-Bold.ttf') format('.ttf')
+    url('../fonts/Dosis-Medium.ttf') format('.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../fonts/Roboto-Regular.ttf') format('.ttf')
+    url('../fonts/Roboto-Medium.ttf') format('.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background:#f6f8f9;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa, .far, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+/* ---page-about--- */
+
+.container-courses {
+    height: 1010px;
+    padding: 0 390px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.courses-math-technology-classes {
+    /* width: 1135px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-english-painting-classes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-title-text h1 {
+    margin-top: 60px;
+    font-size: 36px;
+    color: #00a4d3; 
+    font-family: Dosis-Bold, sans-serif;
+    text-transform: uppercase;
+}
+
+.courses-title-text p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: 600;
+}
+
+.courses-title-text {
+    width: 500px;
+}
+
+.courses-math-technology-classes {
+    margin-top: 50px;
+}
+
+.courses-width {
+    width: 300px;
+}
+
+.courses-nav {
+    font-family: Raleway-SemiBold, sans-serif;
+    font-size: 15px;
+}
+
+.courses-nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.courses-nav li a {
+    padding:  0 25px;
+    color: 3f3f3f;
+}
+
+
+
+
