@@ -7,7 +7,8 @@
 @font-face {
     font-family: 'Roboto'; 
     src: url('../fonts/Roboto-Regular.ttf') format('.ttf')
-    url('../fonts/Roboto-Medium.ttf') format('.ttf');
+    url('../fonts/Roboto-Medium.ttf') format('.ttf')
+    url('../fonts/Roboto-Black.ttf') format('.ttf');
 }
 
 @font-face {
@@ -24,10 +25,9 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background:#f6f8f9;
 }
 
-button {
+button, img {
     cursor: pointer;
 }
 
@@ -54,12 +54,98 @@ a {
     color: #3f3f3f;
 }
 
-/* ---page-about--- */
+.color-for-icons {
+    column-rule: #fff;
+}
 
-.container-courses {
+.container {
     padding: 0 390px;
 }
 
+/* ---header--- */
+.container-header-bg {
+    height: 1070px;
+    padding: 0 390px;
+    background-image: url('../images/backgroundBlueWhite.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-contacts-and-menu a {
+    padding: 0 20px;
+    color: #bde7f4;
+    text-decoration: none;
+}
+
+.header-logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    margin-top: 35px;
+}
+
+.line {
+    width: 705px;
+    margin-top: 25px;
+    border-bottom: 1px solid #80d2e9; 
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav {
+    margin-top: 10px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav li a {
+    padding: 0 20px;
+    color: #bde7f4;
+}
+
+.main-nav a:hover {
+    color: #fcfefe;
+    font-weight: bold;
+}  
+
+.header-contacts-register-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-contacts-register-login a:hover {
+    color: #fcfefe;
+    font-weight: bold;
+}
+
+.header-email-phone {
+    align-items: flex-start;
+}
+
+.header-search-register-login {
+    align-items: flex-end;
+}
+
+/* ---courses--- */
 .courses {
     display: flex;
     flex-direction: column;
@@ -126,14 +212,14 @@ a {
     text-transform: uppercase;
 }
 
-.courses-nav ul {
-    list-style: none;
-    text-decoration: none;
-}
-
 .courses-nav li a {
     color: #00a4d3;
     font-weight: 600;
+}
+
+.courses-nav ul {
+    list-style: none;
+    text-decoration: none;
 }
 
 .courses-style-header {
@@ -173,14 +259,4 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
 
