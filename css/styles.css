@@ -144,6 +144,85 @@ a {
     align-items: flex-end;
 }
 
+/* ---page-about--- */
+.page-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.page-about-wrrapper-first-image {
+    margin-left: 20px;
+}
+
+.page-about-title-text-button {
+    width: 430px;
+}
+
+.page-about-title-text-button h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: Dosis-Medium, sans-serif;
+    margin-top: 60px;
+}
+
+.page-about-title-text-button h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Dosis-Bold, sans-serif;
+}
+
+.page-about-first-paragraph {
+    font-size: 14px;
+    color: #c3e9f5;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 2;
+    margin-top: 60px;
+}
+
+.page-about-second-paragraph {
+    font-size: 14px;
+    color: #c3e9f5;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.page-about-button {
+    width: 160px;
+    height: 50px;
+    background-color: #fff; 
+    border: none;
+    border-radius: 8px;
+    color: #00a4d3;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.page-about-button:hover {
+    color: #fff;
+    background-color: #00a4d3;
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.container-page-about {
+    height: 550px;
+    margin-right: 390px;
+    background-image: url('../images/backgroundPageAbout.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* ---courses--- */
 .courses {
     display: flex;
@@ -160,11 +239,6 @@ a {
 
 .courses-math-technology-classes {
     height: 350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .courses-english-painting-classes {
     margin-left: 15px;
@@ -258,4 +332,3 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
-
