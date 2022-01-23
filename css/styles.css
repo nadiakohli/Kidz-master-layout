@@ -136,6 +136,57 @@ a {
     align-items: flex-end;
 }
 
+/* ---main-page--- */
+.main-page-slider-and-text {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-img-slider {
+    margin-bottom: 58px;
+}
+
+.main-page-title-text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+
+.main-page-title {
+    font-family: Dosis-Bold, sans-serif;
+    font-size: 72px;
+    color: #00a4d3;
+    margin-top: 50px;
+}
+
+.main-page-paragraph {
+    line-height: 1.5;
+    font-family: Dosis-Medium, sans-serif;
+    font-size: 48px;
+    color: #00a4d3;
+    margin-top: 25px;
+}
+
+.main-page-button {
+    background-color: #00a4d3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 43px;
+    margin-top: 45px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* ---page-about--- */
 .container-page-about {
     height: 550px;
