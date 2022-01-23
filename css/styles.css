@@ -2,13 +2,7 @@
     font-family: 'Roboto'; 
     src: url('../fonts/Roboto-Regular.ttf') format('.ttf')
     url('../fonts/Roboto-Medium.ttf') format('.ttf')
-    url('../fonts/Roboto-Black.ttf') format('.ttf');
-}
-    
-@font-face {
-    font-family: 'Dosis'; 
-    src: url('../fonts/Dosis-Bold.ttf') format('.ttf')
-    url('../fonts/Dosis-Medium.ttf') format('.ttf');
+    url('../fonts/Roboto-Black.ttf') format('.ttf'); 
 }
 
 @font-face {
@@ -59,6 +53,7 @@ a {
 }
 
 /* ---header--- */
+
 .container-header-bg {
     height: 1070px;
     padding: 0 390px;
