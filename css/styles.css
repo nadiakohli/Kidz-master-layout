@@ -5,6 +5,12 @@
     url('../fonts/Roboto-Black.ttf') format('.ttf'); 
 }
 
+@font-face {
+    font-family: 'Dosis'; 
+    src: url('../fonts/Dosis-Bold.ttf') format('.ttf')
+    url('../fonts/Dosis-Medium.ttf') format('.ttf'); 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +42,6 @@ a {
 
 .fa, .far, .fas {
     font-family: 'Font Awesome 5 Free';
-    font-weight: 400;
 }
 
 .color-for-icons {
@@ -67,8 +72,12 @@ a {
 .header-logo-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.wrapper-img-logo {
+    margin-right: 90px;
 }
 
 .img-logo {
@@ -129,4 +138,134 @@ a {
 
 .header-search-register-login {
     align-items: flex-end;
+}
+
+/* ---main-page--- */
+.main-page-slider-and-text {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-img-slider {
+    margin-bottom: 58px;
+}
+
+.main-page-title-text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+
+.main-page-title {
+    font-family: Dosis-Bold, sans-serif;
+    font-size: 72px;
+    color: #00a4d3;
+    margin-top: 50px;
+}
+
+.main-page-paragraph {
+    line-height: 1.5;
+    font-family: Dosis-Medium, sans-serif;
+    font-size: 48px;
+    color: #00a4d3;
+    margin-top: 25px;
+}
+
+.main-page-button {
+    background-color: #00a4d3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 43px;
+    margin-top: 45px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ---page-about--- */
+.container-page-about {
+    height: 550px;
+    margin-right: 390px;
+    background-image: url('../images/backgroundPageAbout.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-about-wrrapper-first-image {
+    margin-left: 20px;
+}
+
+.page-about-title-text-button {
+    width: 430px;
+}
+
+.page-about-title-text-button h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: Dosis-Medium, sans-serif;
+    margin-top: 60px;
+}
+
+.page-about-title-text-button h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Dosis-Bold, sans-serif;
+}
+
+.page-about-first-paragraph {
+    font-size: 14px;
+    color: #c3e9f5;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 2;
+    margin-top: 60px;
+}
+
+.page-about-second-paragraph {
+    font-size: 14px;
+    color: #c3e9f5;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.page-about-button {
+    width: 160px;
+    height: 50px;
+    background-color: #fff; 
+    border: none;
+    border-radius: 8px;
+    color: #00a4d3;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.page-about-button:hover {
+    color: #fff;
+    background-color: #00a4d3;
+    font-family: Roboto-Medium, sans-serif;
 }
