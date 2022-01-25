@@ -381,6 +381,72 @@ a {
 }
 
 /* ---icon-feature--- */
+.container-icon-feature {
+    height: 650px;
+    background-image: url('../images/iconFeatureBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-feature {
+    margin: 0 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-and-text {
+   width: 475px;
+} 
+
+.image-and-text img {
+    margin-top: 50px;
+}
+
+.image-and-text h1 {
+    font-size: 36px;
+    color: #fff;
+    font-family: Dosis-Bold, sans-serif;
+    margin-top: 40px;
+}
+
+.image-and-text p {
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto-Regular, sans-serif;
+    margin-top: 35px;
+    line-height: 1.5;
+}
+
+.icon-rectangle {
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.icons {
+    width: 555px;
+    height: 360px;
+}
+
+.meal-multi-art {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-teach-achieve {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* ---teacher--- */
 
