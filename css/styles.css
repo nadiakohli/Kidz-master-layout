@@ -466,7 +466,44 @@ a {
 /* ---teacher--- */
 
 /* ---tesmonial--- */
+.container-tesmonial {
+    height: 750px;
+    background-image: url('../images/tesmonialBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.tesmonial {
+    margin: 0 490px 0 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-quotes {
+    margin-top: 75px;
+}
+
+.tesmonial-title {
+    margin-top: 60px;
+    font-size: 36px;
+    color: #fff;
+    font-family: Dosis-Bold, sans-serif;
+}
+
+.tesmonial-text {
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto-Regular, sans-serif;
+    margin-top: 45px;
+    line-height: 1.5;
+}
+
+.img-three-points {
+    margin-top: 45px;
+}
 /* ---news--- */
 
 /* ---key-points--- */
