@@ -604,9 +604,17 @@ a {
 /* ---key-points--- */
 
 /* ---footer--- */
-.container-footer {
-    height: 1080px;
-    background-image: url('../images/footerBackground.png');
+.container-footer-part-one {
+    height: 400px;
+    background-image: url('../images/footerBackgroundOnePart.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-footer-part-two {
+    height: 800px;
+    background-image: url('../images/footerBackgroundTwoPart.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
