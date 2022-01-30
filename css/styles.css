@@ -604,3 +604,10 @@ a {
 /* ---key-points--- */
 
 /* ---footer--- */
+.container-footer {
+    height: 1080px;
+    background-image: url('../images/footerBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
