@@ -2,13 +2,20 @@
     font-family: 'Roboto'; 
     src: url('../fonts/Roboto-Regular.ttf') format('.ttf')
     url('../fonts/Roboto-Medium.ttf') format('.ttf')
-    url('../fonts/Roboto-Black.ttf') format('.ttf');
+    url('../fonts/Roboto-Black.ttf') format('.ttf')
+    url('../fonts/Roboto-Light.ttf') format('.ttf')
+    url('../fonts/Roboto-Bold.ttf') format('.ttf');
 }
     
 @font-face {
     font-family: 'Dosis'; 
     src: url('../fonts/Dosis-Bold.ttf') format('.ttf')
     url('../fonts/Dosis-Medium.ttf') format('.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoSlab'; 
+    src: url('../fonts/RobotoSlab-Bold.ttf') format('.ttf');
 }
 
 * {
@@ -632,7 +639,6 @@ a {
 }
 
 .footer-sign-up h1 {
-    margin-top: 40px;
     font-size: 16px;
     color: #00a4d3; 
     font-family: Roboto-Medium, sans-serif;
@@ -644,7 +650,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer-copyright-logo-icons {
@@ -671,7 +677,15 @@ i {
     align-items: flex-end;
 }
 
+.footer-instagram h1 {
+    font-size: 16px;
+    color: #00a4d3; 
+    font-family: Roboto-Bold, sans-serif;
+    text-transform: uppercase;
+}
+
 .footer-rectangles {
+    width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -688,4 +702,95 @@ i {
     height: 95px;
     background: #00a4d3;
     border-radius: 25px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #00a4d3; 
+    font-family: RobotoSlab-Bold, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.address h1 {
+    font-size: 16px;
+    color: #1a748f; 
+    font-family: RobotoSlab-Bold, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.address p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333; 
+    font-family: Roboto-Medium, sans-serif;
+    line-height: 1.5;
+}
+
+.address p:last-child {
+    margin-top: 0;
+}
+
+.footer-number-styles {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer-text-style {
+    font-size: 16px;
+    color: #00a4d3; 
+    font-family: Roboto-Medium, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.tel-email-web p {
+    margin-top: 5px;
+    align-items: center;
+    font-size: 14px;
+    color: #333; 
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.quicklinks p {
+    margin-top: 10px;
+    align-items: center;
+    font-size: 14px;
+    color: #333; 
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.footer-edit-section-and-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-edit-section-and-button button {
+    justify-content: center;
+    background-color: #00a4d3;
+    border: none;
+    color: #fff;
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.email {
+    background-color: #fff;
+    border: 1px solid #00a4d3;
+    width: 380px;
+    height: 47px;
+    font-size: 12px;
+    padding: 19px;
+    font-family: Roboto-Regular, sans-serif;
+    margin-right: 10px;
+    color: #00a4d3;
 }
