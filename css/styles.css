@@ -794,3 +794,25 @@ i {
     margin-right: 10px;
     color: #00a4d3;
 }
+
+.quicklinks-nav {
+    margin-top: 5px;
+    align-items: center;
+    font-size: 14px;
+    color: #333; 
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.quicklinks-nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.quicklinks-nav li a {
+    color: #333;
+    line-height: 1.5;
+}
+
+.quicklinks-nav a:hover{
+    color: #00a4d3;
+}
