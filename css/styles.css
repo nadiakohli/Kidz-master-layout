@@ -679,5 +679,35 @@ a {
 }
 
 /* ---key-points--- */
+.key-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 240px;
+}
+
+.key-points-block {
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.key-points-block h1 {
+    font-size: 18px;
+    color: #00a4d3;
+    margin-top: 10px;
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.key-points-block p {
+    font-size: 14px;
+    color: #333;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 1.5;
+    margin-top: 10px;
+}
 
 /* ---footer--- */
