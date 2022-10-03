@@ -56,7 +56,7 @@ a {
 }
 
 .container {
-    padding: 0 390px;
+    padding: 0 190px;
 }
 
 /* ---header--- */
@@ -69,13 +69,13 @@ a {
 }
 
 .header-contacts-and-menu a {
-    padding: 0 20px;
+    margin-right: 5px;
     color: #bde7f4;
     text-decoration: none;
 }
 
 .header-logo-menu {
-    padding: 0 390px;
+    padding: 0 190px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,11 +83,11 @@ a {
 }
 
 .img-logo {
-    margin-top: 35px;
+    margin: 35px 35px 0 0;
 }
 
 .header-line {
-    width: 705px;
+    width: 100%;
     margin-top: 25px;
     border-bottom: 1px solid #80d2e9; 
 }
@@ -120,7 +120,16 @@ a {
 .main-nav a:hover {
     color: #fcfefe;
     font-weight: bold;
-}  
+}
+
+.header-contacts-and-menu i {
+    font-size: 15px;
+    margin: auto;
+}
+
+.header-contacts-and-menu {
+    width: 95%;
+}
 
 .header-contacts-register-login {
     display: flex;
@@ -144,6 +153,7 @@ a {
 
 /* ---main-page--- */
 .main-page-slider-and-text {
+    padding: 0 100px;
     margin-top: 200px;
     display: flex;
     flex-direction: row;
@@ -155,25 +165,39 @@ a {
     margin-bottom: 58px;
 }
 
+.wrapper-img-slider img {
+   width: 650px;
+   height: 500px;
+}
+
 .main-page-title-text-button {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
-.main-page-title {
+.main-page-title-text {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.main-page-title-text h1 {
     font-family: Dosis-Bold, sans-serif;
-    font-size: 72px;
+    font-size: 64px;
     color: #00a4d3;
     margin-top: 50px;
 }
 
-.main-page-paragraph {
+.main-page-title-text p {
     line-height: 1.5;
     font-family: Dosis-Medium, sans-serif;
-    font-size: 48px;
+    font-size: 42px;
     color: #00a4d3;
     margin-top: 25px;
 }
@@ -203,19 +227,21 @@ a {
 }
 
 .page-about {
-    margin-right: 390px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.page-about-wrrapper-first-image {
-    margin-left: 20px;
+.page-about-wrrapper-second-image img {
+    width: 500px;
 }
 
 .page-about-title-text-button {
-    width: 430px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .page-about-title-text-button h1 {
@@ -226,7 +252,7 @@ a {
 }
 
 .page-about-title-text-button h2 {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 30px;
     color: #fff;
     font-family: Dosis-Bold, sans-serif;
@@ -237,7 +263,7 @@ a {
     color: #c3e9f5;
     font-family: Roboto-Regular, sans-serif;
     line-height: 2;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .page-about-second-paragraph {
@@ -397,7 +423,7 @@ a {
 }
 
 .icon-feature {
-    margin: 0 390px;
+    margin: 0 190px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -472,7 +498,7 @@ a {
 
 /* ---teacher--- */
 .container-teacher {
-    margin: 0 390px;
+    margin: 0 190px;
     height: 855px;
 }
 
@@ -736,7 +762,7 @@ a {
 }
 
 footer {
-    margin: 0 390px;
+    margin: 0 190px;
 }
 
 .footer-submit {
