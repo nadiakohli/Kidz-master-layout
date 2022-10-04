@@ -6,7 +6,7 @@
     url('../fonts/Roboto-Light.ttf') format('.ttf')
     url('../fonts/Roboto-Bold.ttf') format('.ttf');
 }
-    
+
 @font-face {
     font-family: 'Dosis'; 
     src: url('../fonts/Dosis-Bold.ttf') format('.ttf')
@@ -24,17 +24,22 @@
     box-sizing: border-box;
 }
 
-html, body {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 button, img {
     cursor: pointer;
 }
 
 a {
     text-decoration: none;
+}
+
+i {
+    color: #00a4d3;
+    font-size: 36px;
+    margin-right: 32px;
+}
+
+footer {
+    margin: 0 190px;
 }
 
 .fa, .fab, .fal, .far, .fas {
@@ -796,10 +801,6 @@ a {
     background-position: center;
 }
 
-footer {
-    margin: 0 190px;
-}
-
 .footer-submit {
     display: flex;
     flex-direction: row;
@@ -831,12 +832,6 @@ footer {
 
 .footer-copyright-logo-icons img {
     margin-top: 50px;
-}
-
-i {
-    color: #00a4d3;
-    font-size: 36px;
-    margin-right: 32px;
 }
 
 .footer-instagram {
@@ -987,6 +982,10 @@ i {
 }
 
 @media screen and (max-width: 1280px) {
+    footer {
+        margin: 0 75px;
+    }
+
     .container {
         padding: 0 75px;
     }
@@ -1085,6 +1084,14 @@ i {
     .container-icon-feature {
         height: 1080px;
     }
+
+    .image-and-text h1 {
+        font-size: 42px;
+    }
+
+    .image-and-text p {
+        font-size: 18px;
+    }
     
     .icon-feature {
         margin: 0 75px;
@@ -1117,7 +1124,7 @@ i {
     
     /* ---news--- */
     .news {
-        height: 1400px;
+        height: 925px;
     }
     
     .news-posts {
@@ -1137,10 +1144,6 @@ i {
     /* ---footer--- */
     .container-footer-part-two {
         height: 1200px;
-    }
-    
-    footer {
-        margin: 0 75px;
     }
     
     .footer-submit {
@@ -1163,6 +1166,18 @@ i {
     
     .footer-copyright-logo-icons img {
         margin: 25px 0;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    /* ---teacher--- */
+    .container-teacher {
+        height: 1450px;
+    }
+
+    /* ---news--- */
+    .news {
+        height: 1400px;
     }
 }
 
@@ -1209,7 +1224,7 @@ i {
     }
 
     .header-logo-menu a:hover {
-        color: #256b8d;
+        color: #49a2ce;
         font-weight: bold;
     }
 
@@ -1237,8 +1252,12 @@ i {
         margin: auto;
     }
 
+    .main-nav {
+        margin-top: 0;
+    }
+
     .main-nav li {
-      border-bottom: 1px solid #49a2ce;
+        border-bottom: 1px solid #49a2ce;
     }
 
     .main-nav li:last-child {
@@ -1251,7 +1270,8 @@ i {
 
     .burger-menu {
         position: absolute;
-        top: 30px;
+        top: 40px;
+        border: 1px solid #1a748f;
     }
 
     .wrapper-btn-menu {
@@ -1388,18 +1408,25 @@ i {
     }
 
     .image-and-text img {
+        display: flex;
+        align-self: center;
+        margin: 40px auto;
         width: 250px;
     }
+
+    .image-and-text h1 {
+        font-size: 34px;
+    }
+
+    .image-and-text p {
+        font-size: 14px;
+    }    
 
     /* ---teacher--- */
     .container-teacher {
         margin: 0 50px;
     }
     
-    .teacher {
-        width: 100%;
-    }
-
     .teacher-title-text {
         width: 95%;
     }
@@ -1446,6 +1473,10 @@ i {
 
     .tesmonial-text {
         font-size: 16px;
+    }
+
+    .img-three-points {
+        width: 50px;
     }
     
     /* ---footer--- */
@@ -1513,6 +1544,11 @@ i {
         font-size: 13px;
     }
 
+    /* ---icon-feature--- */
+    .icons-blocks {
+        justify-content: space-evenly;
+    }
+
     /* ---key-points--- */
     .key-points {
         display: flex;
@@ -1523,5 +1559,284 @@ i {
     .key-points-block img {
         width: 50px;
     }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        margin: 0 20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
     
+    /* ---header--- */
+    .container-header-bg {
+        height: 950px;
+    }
+
+    .burger-menu {
+        top: 40px;
+    }
+
+    .header-logo-menu {
+        padding: 0 20px;
+    }
+    
+    /* ---main-page--- */
+    .main-page-slider-and-text {
+        padding: 0 50px;
+    }
+    
+    .wrapper-img-slider img {
+       width: 250px;
+       height: 200px;
+    }
+
+    .main-page-title-text h1 {
+        font-size: 26px;
+    }
+    
+    .main-page-title-text p {
+        font-size: 18px;
+    }
+    
+    .main-page-button {
+        padding: 14px 18px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    
+    /* ---page-about--- */
+    .page-about-title-text-button h1,
+    .page-about-title-text-button h2 {
+        font-size: 21px;
+    }
+
+    .page-about-first-paragraph,
+    .page-about-second-paragraph {
+        font-size: 13px;
+    }
+
+    .page-about-wrrapper-second-image img {
+        width: 275px;
+    }
+
+    .page-about-button {
+        width: 130px;
+        height: 40px;
+        border-radius: 6px;
+        margin: 20px 0;
+        font-size: 12px;
+    }
+    
+    /* ---courses--- */
+    .courses img {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .courses-math,
+    .courses-technology {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .courses-english,
+    .courses-painting {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .courses-width {
+        width: 95%;
+    }
+
+    .courses-title-text h1 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    
+    .courses-title-text p {
+        font-size: 12px;
+    }
+    
+    .courses-button button {
+        padding: 16px 25px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    
+    /* ---icon-feature--- */
+    .icon-feature {
+        margin: 0 20px;
+    }
+
+    .container-icon-feature {
+        height: 980px;
+    }
+
+    .image-and-text img {
+        width: 225px;
+    }
+
+    .icon-rectangle {
+        width: 115px;
+        height: 115px;
+    }
+
+    .wrapper-img-and-icon-name img {
+        width: 35px;
+    }
+
+    .wrapper-img-and-icon-name h1 {
+        font-style: 14px;
+        text-align: center;
+    }
+
+    /* ---teacher--- */
+    .container-teacher {
+        margin: 0 20px;
+        height: 950px;
+    }
+
+    .teacher-title-text h1 {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    
+    .teacher-title-text p {
+        font-size: 12px;
+    }
+
+    .wrapper-img-name-first img {
+        width: 135px;
+        height: 155px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .rounded-left-bottom-corner {
+        width: 135px;
+        height: 40px;
+    }
+    
+    .rounded-right-bottom-corner {
+        width: 135px;
+        height: 40px;
+    }
+    
+    .rounded-bottom-corners {
+        width: 135px;
+        height: 40px;
+    }
+    
+    .teacher-name {
+        font-size: 14px;
+    }
+
+    .teacher-name-note {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .teacher-note {
+        margin: 0;
+    }
+
+    /* ---tesmonial--- */
+    .img-quotes {
+        width: 225px;
+    }
+
+    .tesmonial-title {
+        font-size: 26px;
+    }
+
+    .tesmonial-text {
+        font-size: 14px;
+    }
+
+    .img-three-points {
+        width: 40px;
+    }
+    
+    /* ---news--- */
+    .news {
+        height: 1000px;
+    }
+
+    .news-nav {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .news-title h1 {
+        margin-top: 30px;
+        font-size: 28px;
+    }
+
+    .news-post img {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .news-post p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .news-post h1 {
+        font-size: 14px;
+        margin-top: 15px;
+        width: 95%;
+    }
+
+    /* ---key-points--- */
+    .key-points {
+        height: 600px;
+    }
+
+    .key-points-block {
+        width: 96%;
+    }
+
+    .key-points-block h1 {
+        font-size: 16px;
+    }
+
+    /* ---footer--- */
+    .container-footer-part-two {
+        height: 1180px;
+    }
+
+    .container-footer-part-one {
+        height: 280px;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .footer-text {
+        margin-top: 50px;
+    }
+
+    .footer-rectangle {
+        margin-top: 30px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .footer-rectangles {
+        width: 280px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer-copyright-logo-icons img {
+        width: 130px;
+    }
 }
